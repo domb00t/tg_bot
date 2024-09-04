@@ -1,6 +1,6 @@
 import ctypes
 
-c_func = ctypes.CDLL("/Users/egor/Documents/tg_bot/cppmodule/cpp_module.so")
+c_func = ctypes.CDLL("/home/user/tg_bot/cppmodule/cpp_module.so")
 
 encrypt = c_func._encrypt
 decrypt = c_func._decrypt
